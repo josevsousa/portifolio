@@ -1,0 +1,8 @@
+.aling_icon{
+    display: flex;
+    float: left;
+}
+
+ul>li>ul>li{
+    color: #7d7d7d;
+}
