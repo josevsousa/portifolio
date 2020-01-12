@@ -19,15 +19,14 @@
 
 
 
-    <form [formGroup]="formulario" (ngSubmit)="ngSubmit()">
         <div class="form-group" >
-          <input type="text" minlength="8" formControlName="cep" class="form-control" (keyup)="ngKeyup()"  placeholder="cep">
-          <div class="alert alert-danger" role="alert" [hidden]="valido()">
+          <input type="text" minlength="1" maxlength="9" [(ngModel)]="inputCep"  class="form-control" (keyup)="ngKeyup()"  placeholder="cep">
+          <!-- <div class="alert alert-danger" role="alert" [hidden]="valido()">
             {{msgErro}}
-          </div>
+          </div> -->
         </div>
-        <button class="btn btn-primary btn-block" type="submit" [disabled]="!formulario.valid" >Enviar</button>
-      </form> 
+        <button class="btn btn-primary btn-block" [disabled]="validoSubmit" >Enviar</button>
+      
 
     <!-- <form > -->
         <!-- <div >
