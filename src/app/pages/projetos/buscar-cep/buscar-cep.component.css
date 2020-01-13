@@ -8,3 +8,20 @@
     border: none !important;
     box-shadow: none !important;
 }
+
+.form-group.cepInput input {
+    width: 262px;
+    margin: 0 auto;
+}
+.form-group.cepInput div {
+    width: 262px;
+    margin: 6px auto;
+}
+
+ul {
+    text-align: left;
+    list-style: none;
+    padding: 8px 0px 0px 0px;
+    border-top: 1px solid #eaeaea;
+    /* border-bottom: 1px solid #eaeaea; */
+}
