@@ -30,4 +30,9 @@ li.pythonIcon .p {
 li.pythonIcon .w {
     width: 62px;
 }
+
+.aLinkGamp {
+    cursor: pointer;
+    color: #377bff !important;
+}
  
